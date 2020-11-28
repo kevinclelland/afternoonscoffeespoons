@@ -1,23 +1,20 @@
 ---
-title: A page for you
+title: Welcome. Listen
 layout: base.njk
 ---
 
 <div class="container">
-  <h1>This is a page for you</h1>
-  <div class="vibe">You are great!</div>
+  <h1>Curated Albums</h1>
+  <div class="vibe"></div>
   <div class="love">
-    ❤️
+    <i class="fas fa-headphones-alt"></i> ❤️ <i class="fas fa-guitar"></i>
   </div>
 
-  <ul>
-  {% for article in news.articles %}
-    <li>
-      <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
-      <span>{{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
-    </li>
+  <div class="container">
+      <br>
+  <p><a href="/start"><button class="button">Start</button></a></p>
+  <p><a href="https://www.youtube.com/watch?v=kffacxfA7G4"><button class="button2">Warning! Don't Press!</button></a></p>
+</div>
 
-  {% endfor %}
-  </ul>
 </div>
 <script src="/js/vibe.js"></script>
