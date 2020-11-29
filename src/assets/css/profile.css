@@ -58,6 +58,7 @@ html, body {
     color: #212529;
   }
 
+
   #logo-container img {
     width: auto;
     max-width: 95%;
@@ -69,24 +70,9 @@ html, body {
  }
 
  .parent {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  display: grid;
-  place-items: center;
-  max-width: 30%;
-  min-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 14px;
-}
-
-.parentA {
-  justify-content: center;
-  display: grid;
-  place-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
-  font-size: 1.5em;
 }
 
 .box {
@@ -95,23 +81,22 @@ html, body {
   margin: 5px;
 }
 
-.boxA {
+.boxBig {
   flex: 1 1 150px; /*  Stretching: */
-  flex: 0 1 650px; /*  No stretching: */
+  flex: 0 1 300px; /*  No stretching: */
+  margin: 5px;
+}
+
+.boxAlbum {
+  flex: 1 1 150px; /*  Stretching: */
+  flex: 0 1 250px; /*  No stretching: */
   margin: 5px;
 }
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
-    border-radius: 5px;
-  }
-
-  .cardA {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
   }
   
