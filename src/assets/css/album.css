@@ -115,6 +115,7 @@ html, body {
   }
 
   a:link {
+    color: #212529;
     background-color: transparent;
     text-decoration: none;
   }
