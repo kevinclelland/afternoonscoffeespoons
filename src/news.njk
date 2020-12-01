@@ -2,6 +2,46 @@
 title: Welcome. Listen
 layout: base.njk
 ---
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/dark.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+am4core.ready(function() {
+
+// Themes begin
+am4core.useTheme(am4themes_dark);
+am4core.useTheme(am4themes_animated);
+// Themes end
+
+var chart = am4core.create("chartdiv", am4plugins_wordCloud.WordCloud);
+var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
+
+series.accuracy = 4;
+series.step = 15;
+series.rotationThreshold = 0.7;
+series.maxCount = 200;
+series.minWordLength = 2;
+series.labels.template.tooltipText = "{word}: {value}";
+series.fontFamily = "Courier New";
+series.maxFontSize = am4core.percent(30);
+
+series.text = "What is it that makes me just a little bit queasy? There's a breeze that makes my breathing not so easy I've had my lungs checked out with X rays I've smelled the hospital hallways Someday I'll have a disappearing hairline Someday I'll wear pyjamas in the daytime Times when the day is like a play by Sartre When it seems a bookburning's in perfect order I gave the doctor my description I've tried to stick to my prescription Someday I'll have a disappearing hairline Someday I'll wear pyjamas in the daytime Afternoons will be measured out Measured out, measured with Coffee spoons and T.S. Eliot Maybe if I could do a play-by-playback I could change the test results that I will get back I've watched the summer evenings pass by I've heard the rattle in my bronchi.";
+
+}); // end am4core.ready()
+</script>
+
+
+
+<div id="chartdiv">
+
+
+</div>
+
 
 <div class="container">
   <h1>Latest News using the NewsAPI</h1>
