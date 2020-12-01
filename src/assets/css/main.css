@@ -24,6 +24,7 @@ html, body {
     padding:0;
     margin: 0
   }
+
   
   li {
     display: inline-block;
@@ -167,6 +168,17 @@ html, body {
     background-color: #212529;
     color: #fcfaf3;
     
+  }
+
+  #newsArticle {
+    font-size: 10px;
+    color: #fcfaf3;
+  }
+
+  #newsArticle:hover {
+    font-size: 11px;
+    
+    background-color: #212529;
   }
 
   #page-container {
