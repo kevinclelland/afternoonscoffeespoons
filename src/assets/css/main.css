@@ -181,6 +181,17 @@ html, body {
     background-color: #212529;
   }
 
+  #songArticle {
+    font-size: 10px;
+    color: #fcfaf3;
+  }
+
+  #songArticle:hover {
+    font-size: 11px;
+    
+    background-color: #212529;
+  }
+
   #page-container {
     position: relative;
     min-height: 100vh;

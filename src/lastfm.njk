@@ -1,0 +1,23 @@
+---
+title: Welcome. Listen
+layout: base.njk
+---
+
+<div id="container-wrap">
+  <h1>Testing the LastFM API</h1>
+
+  <button id="get">GET</button>
+  
+  <div class="container">
+  <ul>
+  {% for track in lastFM.album.tracks.track %}
+
+    <li id="songArticle">
+      <h2>{{ track.name }}</h2>
+    </li>
+
+  {% endfor %}
+  </ul>
+  </div>
+</div><br>
+
