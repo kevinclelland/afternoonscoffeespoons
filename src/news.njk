@@ -42,15 +42,15 @@ series.text = "What is it that makes me just a little bit queasy? There's a bree
 
 
 <div id="container-wrap">
-  <h1>Latest News using the NewsAPI</h1>
+  <h1>Latest News using the NewsAPI</h1><br>
   
   <div class="container">
   <ul>
   {% for article in news.articles %}
-    <li id="newsArticle">
+    <p>
       <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
-      <span>{{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
-    </li>
+      <span id="newsArticle">{{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
+    </p>
 
   {% endfor %}
   </ul>

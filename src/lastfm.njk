@@ -6,18 +6,33 @@ layout: base.njk
 <div id="container-wrap">
   <h1>Testing the LastFM API</h1>
 
-  <button id="get">GET</button>
+  <div>
+    <ul class="btn-grid2">
+           <li><label>Profile:</label> <input type="text" id="profile" value="Claire Land">
+           <li><label>Artist:</label> <input type="text" id="artist" value="Blue October">
+           <li><label>Album:</label> <input type="text" id="album" value="Foiled">
+    </ul>
+  </div>
+  <p><button id="fetchBtn">Fetch songs</button><br>
   
   <div class="container">
+
   <ul>
+
+    <h2>Artist: {{lastFM.album.artist}}</h2>
+    <h2>Album: {{lastFM.album.name}}</h2><br>
+    <h2>Song List</h2><br>
+
   {% for track in lastFM.album.tracks.track %}
 
-    <li id="songArticle">
+    <p id="songArticle">
       <h2>{{ track.name }}</h2>
-    </li>
+    </p>
 
   {% endfor %}
+
   </ul>
   </div>
 </div><br>
+
 
