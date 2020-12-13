@@ -33,6 +33,23 @@ layout: base.njk
 
   </ul>
   </div>
+<br><br>
+  <div class="container">
+<ul>
+
+  <h2>Profile: {{lastFM.album.artist}}</h2>
+
+{% for track in thelist.album.tracks.track %}
+<p>
+  <h2>{{ track.name}}</h2>
+  <h2>{{ track.role}}</h2>
+  <h2>{{ track.bio}}</h2>
+  <h2>{{ track.choice.artist}}</h2>
+  </p>  
+{% endfor %}
+
+</ul>
+  </div>
 </div><br>
 
 

@@ -1,0 +1,85 @@
+{
+    "album": {
+        "tracks": {
+            "track": [
+                {
+                    "name": "Claire Land",
+                    "role": "Credit Analyst",
+                    "bio": "I've been listening to music since i can remember. I have a wide taste that often contradicts each other. I hope you enjoy my favourites!",
+                    "choice": [
+                        {
+                        "bestalbum": "God Shuffled His Feet",
+                        "artist": "Crash Test Dummies",
+                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                        "url": "https://www.last.fm/music/Justin+Bieber"
+                        },
+                        {
+                        "bestalbum": "God Shuffled His Feet",
+                        "artist": "Crash Test Dummies",
+                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                        "url": "https://www.last.fm/music/Justin+Bieber"
+                        },
+                        {
+                        "bestalbum": "God Shuffled His Feet",
+                        "artist": "Crash Test Dummies",
+                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                        "url": "https://www.last.fm/music/Justin+Bieber"
+                        },
+                        {
+                        "bestalbum": "God Shuffled His Feet",
+                        "artist": "Crash Test Dummies",
+                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                        "url": "https://www.last.fm/music/Justin+Bieber"
+                        },
+                        {
+                        "bestalbum": "God Shuffled His Feet",
+                        "artist": "Crash Test Dummies",
+                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                        "url": "https://www.last.fm/music/Justin+Bieber"
+                        }
+                    ]
+                },
+                {
+                "name": "Claire Land",
+                "role": "Credit Analyst",
+                "bio": "I've been listening to music since i can remember. I have a wide taste that often contradicts each other. I hope you enjoy my favourites!",
+                "choice": [
+                    {
+                    "bestalbum": "God Shuffled His Feet",
+                    "artist": "Crash Test Dummies",
+                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                    "url": "https://www.last.fm/music/Justin+Bieber"
+                    },
+                    {
+                    "bestalbum": "God Shuffled His Feet",
+                    "artist": "Crash Test Dummies",
+                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                    "url": "https://www.last.fm/music/Justin+Bieber"
+                    },
+                    {
+                    "bestalbum": "God Shuffled His Feet",
+                    "artist": "Crash Test Dummies",
+                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                    "url": "https://www.last.fm/music/Justin+Bieber"
+                    },
+                    {
+                    "bestalbum": "God Shuffled His Feet",
+                    "artist": "Crash Test Dummies",
+                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                    "url": "https://www.last.fm/music/Justin+Bieber"
+                    },
+                    {
+                    "bestalbum": "God Shuffled His Feet",
+                    "artist": "Crash Test Dummies",
+                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+                    "url": "https://www.last.fm/music/Justin+Bieber"
+                    }
+                
+                ]
+            }
+
+          
+        ]
+        }
+    }
+}
