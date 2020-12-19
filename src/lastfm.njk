@@ -21,6 +21,8 @@ layout: base.njk
 
     <h2>Artist: {{lastFM.album.artist}}</h2>
     <h2>Album: {{lastFM.album.name}}</h2><br>
+    <h2>Listeners: {{lastFM.album.listeners}}</h2><br>
+    <h2>Playcount: {{lastFM.album.playcount}}</h2><br>
     <h2>Song List</h2><br>
 
   {% for track in lastFM.album.tracks.track %}

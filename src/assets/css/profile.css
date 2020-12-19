@@ -18,6 +18,14 @@ html, body {
     text-decoration: none;
   }
 
+  .fas {
+    padding: 15px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+
   .row {
     justify-content: center;
     margin-left: auto;
