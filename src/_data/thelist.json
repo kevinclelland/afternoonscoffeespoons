@@ -5,78 +5,33 @@
                 {
                     "name": "Claire Land",
                     "role": "Credit Analyst",
-                    "bio": "I've been listening to music since i can remember. I have a wide taste that often contradicts each other. I hope you enjoy my favourites!",
-                    "choice": [
-                        {
-                        "bestalbum": "God Shuffled His Feet",
-                        "artist": "Crash Test Dummies",
-                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                        "url": "https://www.last.fm/music/Justin+Bieber"
-                        },
-                        {
-                        "bestalbum": "God Shuffled His Feet",
-                        "artist": "Crash Test Dummies",
-                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                        "url": "https://www.last.fm/music/Justin+Bieber"
-                        },
-                        {
-                        "bestalbum": "God Shuffled His Feet",
-                        "artist": "Crash Test Dummies",
-                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                        "url": "https://www.last.fm/music/Justin+Bieber"
-                        },
-                        {
-                        "bestalbum": "God Shuffled His Feet",
-                        "artist": "Crash Test Dummies",
-                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                        "url": "https://www.last.fm/music/Justin+Bieber"
-                        },
-                        {
-                        "bestalbum": "God Shuffled His Feet",
-                        "artist": "Crash Test Dummies",
-                        "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                        "url": "https://www.last.fm/music/Justin+Bieber"
-                        }
-                    ]
+                    "bio": "I've been listening to music since i can remember!",
+                    "album1": "God Shuffled His Feet",
+                    "artist1": "Crash Test Dummies",   
+                    "album2": "Parachutes",
+                    "artist2": "Coldplay",  
+                    "album3": "Hot Fuss",
+                    "artist3": "The Killers",  
+                    "album4": "Sams Town",
+                    "artist4": "The Killers",  
+                    "album5": "Dude Ranch",
+                    "artist5": "Blink 182"
                 },
                 {
-                "name": "Claire Land",
-                "role": "Credit Analyst",
-                "bio": "I've been listening to music since i can remember. I have a wide taste that often contradicts each other. I hope you enjoy my favourites!",
-                "choice": [
-                    {
-                    "bestalbum": "God Shuffled His Feet",
-                    "artist": "Crash Test Dummies",
-                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                    "url": "https://www.last.fm/music/Justin+Bieber"
-                    },
-                    {
-                    "bestalbum": "God Shuffled His Feet",
-                    "artist": "Crash Test Dummies",
-                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                    "url": "https://www.last.fm/music/Justin+Bieber"
-                    },
-                    {
-                    "bestalbum": "God Shuffled His Feet",
-                    "artist": "Crash Test Dummies",
-                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                    "url": "https://www.last.fm/music/Justin+Bieber"
-                    },
-                    {
-                    "bestalbum": "God Shuffled His Feet",
-                    "artist": "Crash Test Dummies",
-                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                    "url": "https://www.last.fm/music/Justin+Bieber"
-                    },
-                    {
-                    "bestalbum": "God Shuffled His Feet",
-                    "artist": "Crash Test Dummies",
-                    "mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
-                    "url": "https://www.last.fm/music/Justin+Bieber"
-                    }
-                
-                ]
-            }
+                    "name": "Jack Jones",
+                    "role": "Special Analyst",
+                    "bio": "Music for life!",
+                    "album1": "Jagged Little Pill",
+                    "artist1": "Alanis Morisette",   
+                    "album2": "Paint the sky with stars",
+                    "artist2": "Enya",  
+                    "album3": "Hot Fuss",
+                    "artist3": "The Killers",  
+                    "album4": "Sams Town",
+                    "artist4": "The Killers",  
+                    "album5": "Dude Ranch",
+                    "artist5": "Blink 182"
+                }
 
           
         ]
