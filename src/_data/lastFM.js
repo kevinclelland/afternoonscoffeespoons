@@ -2,8 +2,6 @@
  require('dotenv').config()
  var artistName1 = "The Offspring";
  var albumName1 = "Smash";
- var artistName2 = "Shotgun Tori";
- var albumName2 = "Be Brave";
 
  module.exports = async function() {
   try {
