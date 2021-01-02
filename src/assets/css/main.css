@@ -59,6 +59,23 @@ html, body {
     font-size: 1.5em;
   }
 
+  #sendfox {
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+    color: #212529;;
+  }
+
+  #aboutc {
+    font-size: 1.5em;
+    max-width: 650px;
+  }
+
+  #aboutl {
+    font-size: 1em;
+    max-width: 650px;
+    text-align: left;
+  }
+
   .vibe {
     font-family: 'Caveat', cursive;
     font-size: 1.5em;
