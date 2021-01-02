@@ -55,11 +55,13 @@ html, body {
     overflow: auto;
     position: relative;
     top: 0;
-    padding: 5px 35px;
+    padding: 5px 5px;
     width: 95%;
     z-index: 999;
     background: #fcfaf3;
     color: #212529;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   ul {
@@ -77,7 +79,7 @@ html, body {
     margin: 0;
     cursor: pointer;
     text-transform: uppercase;
-    float: right; 
+    /*float: right;*/ 
   }
   
   li:hover {
@@ -87,7 +89,7 @@ html, body {
   }
  
   div.container {
-    width:100%;
+    width:99%;
     margin: 0 auto;
     color: #212529;
   }
@@ -95,10 +97,10 @@ html, body {
 
   #logo-container img {
     width: auto;
-    max-width: 95%;
+    max-width: 90%;
     height: auto;
     max-height: 50px;
-    float: left;
+    /*float: left;*/
     margin-left: auto;
     margin-right: auto;
  }
@@ -112,7 +114,7 @@ html, body {
 .box {
   flex: 1 1 150px; /*  Stretching: */
   flex: 0 1 250px; /*  No stretching: */
-  margin: 5px;
+  margin: 10px;
 }
 
 .boxBig {
