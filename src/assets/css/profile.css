@@ -123,6 +123,12 @@ html, body {
   margin: 5px;
 }
 
+.boxBiggest {
+  flex: 1 1 150px; /*  Stretching: */
+  flex: 0 1 500px; /*  No stretching: */
+  margin: 5px;
+}
+
 .boxAlbum {
   flex: 1 1 150px; /*  Stretching: */
   flex: 0 1 250px; /*  No stretching: */
