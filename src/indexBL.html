@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Black Lapels</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Codrops" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/knobKnob.css" />
+        <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="/js/modernizr.custom.69142.js"></script>
+		<script src="https://kit.fontawesome.com/82279ccfbc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+
+
+			<header>
+
+				<h1><span>The Black Lapels -</span> All or Nothing</h1>
+				<h2><strong>Side 1:</strong> Other Side of Love, Shakedown, All or Nothing. <strong>Side 2:</strong> Chemicals, Danger. <br /><strong>Press "switch" to change sides.</strong></h2>
+				<p><b>Bio:</b> The Black Lapels are a pop rock band based in Durban on the East coast of South Africa!</p> </a>
+				<a href="https://www.instagram.com/theblacklapels/" target="_blank"><i class="fab fa-instagram"></i></a>  <a href="https://web.facebook.com/blacklapels/?ref=page_internal"><i class="fab fa-facebook"></i></a>  <a href="https://open.spotify.com/artist/2TPRokHtXu6ce5KFLf1Aw6?si=czs6wg9ZTb-pSekG6XwzpA"><i class="fab fa-spotify"></i></a>  <a href="https://music.apple.com/gb/album/all-or-nothing-ep/1452988998"><i class="fab fa-apple"></i></a>
+
+
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<span class="no-cssanimations">CSS animations are not supported in your browser</span>
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span>
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+
+			</header>
+
+			<div id="vc-container" class="vc-container">
+				<div class="vc-tape-wrapper">
+					<div class="vc-tape">
+						<div class="vc-tape-back">
+							<div class="vc-tape-wheel vc-tape-wheel-left"><div></div></div>
+							<div class="vc-tape-wheel vc-tape-wheel-right"><div></div></div>
+						</div>
+						<div class="vc-tape-front vc-tape-side-a">
+							<span>Side A</span>
+						</div>
+						<div class="vc-tape-front vc-tape-side-b">
+							<span>Side B</span>
+						</div>
+					</div>
+				</div>
+				<div class="vc-loader"></div>
+			</div><!-- //vc-container -->
+
+			<div class="attribution">
+
+				<p>Cassette tape PSD by <a href="http://manicho.deviantart.com/art/Cassette-PSD-File-86548493">Mauricio Estrella</a></p>
+        <p>Working player here <a href="http://tympanus.net/codrops/2012/07/12/old-school-cassette-player-with-html5-audio/">Codrops Article</a></p>
+			</div><!--//attribution-->
+
+		</div><!-- //container -->
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- KnobKnob by Martin Angelov : https://github.com/martinaglv/KnobKnob -->
+		<script src="/js/transform.js"></script>
+		<script src="/js/knobKnob.jquery.js"></script>
+
+		<script type="text/javascript" src="/js/jquery.cassette.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				$( '#vc-container' ).cassette();
+
+				});
+		</script>
+    </body>
+</html>
