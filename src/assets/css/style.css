@@ -2,7 +2,7 @@
 /* Main container */
 .vc-container{
 	text-align: center;
-	height: 500px;
+	height: 480px;
 	margin-bottom: 50px;
 	position: relative;
 }
@@ -18,7 +18,7 @@
 .vc-tape{
 	width: 586px;
 	height: 379px;
-	margin: 30px auto 0;
+	margin: 0px auto 0;
 	position: relative;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
