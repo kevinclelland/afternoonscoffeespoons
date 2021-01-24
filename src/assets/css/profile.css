@@ -20,6 +20,9 @@ html, body {
 
   #welcome {
     font-size: 1.5em;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #sendfox {
