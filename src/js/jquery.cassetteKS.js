@@ -47,7 +47,7 @@
 
 	$.Cassette.defaults 	= {
 		// song names. Assumes the path of each song is songs/name.filetype
-		songs			: [ 'Hold_On','Back_To_Paradise','Theres_Just_So_Much','Black_Sea','Atlantic'],
+		songsKS			: [ 'Hold_On','Back_To_Paradise','Theres_Just_So_Much','Black_Sea','Atlantic'],
 		fallbackMessage	: 'HTML5 audio not supported',
 		// initial sound volume
 		initialVolume	: 0.7
@@ -114,9 +114,9 @@
 
 				function( dfd ) {
 
-					for( var i = 0, len = _self.options.songs.length; i < len; ++i ) {
+					for( var i = 0, len = _self.options.songsKS.length; i < len; ++i ) {
 
-						var song = new $.Song( _self.options.songs[i], i );
+						var song = new $.Song( _self.options.songsKS[i], i );
 
 						$.when( song.loadMetadata() ).done( function( song ) {
 
@@ -838,8 +838,8 @@
 		_init				: function() {
 
 			this.sources	= {
-				mp3	: 'songs/' + this.name + '.mp3',
-				ogg	: 'songs/' + this.name + '.ogg'
+				mp3	: 'songsKS/' + this.name + '.mp3',
+				ogg	: 'songsKS/' + this.name + '.ogg'
 			};
 
 		},
@@ -899,7 +899,7 @@
 		},
 		getSource			: function( type ) {
 
-			return 'sounds/' + this.action + '.' + type;
+			return 'soundsKS/' + this.action + '.' + type;
 
 		},
 		play				: function( action, loop ) {

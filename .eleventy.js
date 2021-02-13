@@ -7,8 +7,8 @@ module.exports = function(config) {
   config.addPassthroughCopy("src/sounds");
   config.addPassthroughCopy({ "src/songs": "indexBL/songs" });
   config.addPassthroughCopy({ "src/sounds": "indexBL/sounds" });
-  config.addPassthroughCopy({ "src/songs": "indexKS/songs" });
-  config.addPassthroughCopy({ "src/sounds": "indexKS/sounds" });
+  config.addPassthroughCopy({ "src/songsKS": "indexKS/songsKS" });
+  config.addPassthroughCopy({ "src/soundsKS": "indexKS/soundsKS" });
 
   return  {
     dir: {
